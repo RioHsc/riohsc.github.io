@@ -1,0 +1,95 @@
+#message_toolbar
+{
+  margin-bottom: 5px;
+  min-height:25px;
+}
+
+.message
+{
+  background:#e9eff3;
+  display:block;
+  clear:both;
+  margin-bottom:5px;
+  padding:10px;
+  min-height: 54px;
+}
+
+.message.unread
+{
+  background:#bfd2dd;
+}
+
+.message .toolbar
+{
+  text-align:right;
+  margin:-5px -5px 0 0;
+}
+
+.message .meta
+{
+  width:195px;
+  float:left;
+}
+.message .meta img
+{
+  margin-right:10px;
+}
+
+.message .meta .author
+{
+  margin:5px 0;
+}
+
+.message .meta .author a
+{
+  color:#40b0eb;
+  font-weight:bold;
+}
+#listing_messages #nomsg
+{
+    padding:5px;
+    text-align: center;
+    font-weight: bold;
+}
+.toolbar img
+{
+  float:none;
+}
+
+.infos
+{
+  padding-left:195px;
+}
+
+.infos .subject
+{
+  font-weight:bold;
+  margin-bottom: 5px;
+}
+
+.usermenu_pastille
+{
+  display:inline-block;
+  width:20px;
+  height:20px;
+  line-height: 20px;
+  text-align: center;
+  background: url(../images/v3/pastille_messages.png);
+  margin-left:10px;
+}
+
+#writing_messages
+{
+  margin-top:10px;
+  margin-bottom:30px;
+  
+}
+
+#newmessage input{margin:0}
+#newmessage .row{margin-top:10px;}
+#newmessage label{line-height: 33px; float:left; width:55px;}
+#newmessage label.error{width:250px; margin-left:60px;}
+#newmessage #subject{width:455px;}
+#newmessage #msg_content{width:510px;}
+#message .row{text-align: center;}
+#listing_messages{margin-top:10px;}

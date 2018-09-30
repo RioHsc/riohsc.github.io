@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[洋葱数学破解版]]></title>
+    <url>%2Farchives%2Fycmaths.html</url>
+    <content type="text"><![CDATA[破解已失效, 安装包停止提供]]></content>
+      <categories>
+        <category>破解</category>
+      </categories>
+      <tags>
+        <tag>思考</tag>
+        <tag>破解</tag>
+        <tag>日常</tag>
+        <tag>MT</tag>
+        <tag>Apk</tag>
+        <tag>Android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CoolZhiyoo]]></title>
+    <url>%2Farchives%2Fzhiyoo.html</url>
+    <content type="text"><![CDATA[此版本为预览版,后续将继续更新,欢迎关注此页! CoolZhiyoo 介绍 CoolZhiyoo为智友手机App修改版。 修改内容 基于3.5版本修改 重绘图标 去除启动广告 去除更新提示 颜色改为酷安绿 部分图标替换为Material Design图标,界面更质感 下载地址 点击下载 界面截图]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Happy birthday for me]]></title>
+    <url>%2Farchives%2Fbirthday.html</url>
+    <content type="text"><![CDATA[Today is my birthday,celebrate myself.]]></content>
+      <categories>
+        <category>自我庆祝</category>
+      </categories>
+      <tags>
+        <tag>自言自语</tag>
+        <tag>思考</tag>
+        <tag>Birthday</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[自言自语]]></title>
+    <url>%2Farchives%2Fu.html</url>
+    <content type="text"><![CDATA[function doDecrypt (pwd, onError) { console.log('in doDecrypt'); const txt = document.getElementById('enc_content').innerHTML; let plantext; try { const bytes = CryptoJS.AES.decrypt(txt, pwd); var plaintext = bytes.toString(CryptoJS.enc.Utf8); } catch(err) { if(onError) { onError(err); } return; } document.getElementById('enc_content').innerHTML = plaintext; document.getElementById('enc_content').style.display = 'block'; document.getElementById('enc_passwd').style.display = 'none'; if(typeof MathJax !== 'undefined') { MathJax.Hub.Queue( ['resetEquationNumbers', MathJax.InputJax.TeX], ['PreProcess', MathJax.Hub], ['Reprocess', MathJax.Hub] ); } } U2FsdGVkX1+y2aZusJuR9xHOOrn7/lLwEoqsQ30FYiqtBRZSA6OixzI8HQ6el2ghqW3WCA0mZLloPoT2eDjqjT7b6uCwtfSOiVVbk3U7zrrCxBWsTZpuAEjOttkpG2X4A1kzIwzeg96d5uJ81US4TbgyFZ47V0yatgp5asHFDTrVFf7Lvyo89aT3Nts0AKnYOT+Q/O9rIR8tlk3nMAW9s0Opdr5eT4pkMGmHIDyNpSkQsg97vl3WY5pWPst/MO/ODxNuI5iYHAZSf4lj5OO0TxRN5S4zMLxYoMn329PgJZp2jvyHe4gzwYPi6/I2i6swrpEVZ9gBKiCVpLsP7XQznPDsUlGeuBIeyn3qbYDBX22IScCDV5JvZuIikrP2jExWxPM7HLqOAuf2wfX9u3XPtUTA/Gg5CBBfVRhK1g//djhAj8sdNl6Oe9QCO0nhjriHANhpyxCpxvmx9BmWw4lTEG1G1mz9O+kRLxI+Zkpj0FfgR3GflOVjEL/GfPIkzaxdyzIZ9u6hNe64Ztf9XBoTN+CCssau8SpWgZLoqhh/JL/NVk2XRfw0w60YJM02N/tYcA3/kYXunKUX9m5UOetqPBxktmZypdg3++cdq7R7mWaAIBdU+hxvZfe+/+lCtDNuin58X4/NoKqFJWK1bd7zr/hpR8TwtSVRSHrQ0nxw7/hC4zcPB5UfyZqcN3vJxCVch2SNPp+2Qds7ZEr3nNjnu+zzfFSK+2ph89Yi0zKM/kugXSg2Ti9ve4hS7sIZ8XlpXg/qBQRLi+EL4vSL0lLneR9MgtWNRwOcYrH9eioprRsVaR1NTEQulq3YbPWJK6y/srJKhyfFZGH9am+qtul3RAOQsAkznqoM9HFGbMElh9tep3mbe0+UzcLsNXfaamAQ var onError = function(error) { document.getElementById("enc_error").innerHTML = "密码错误!" }; function decrypt() { var passwd = document.getElementById("enc_pwd_input").value; console.log(passwd); doDecrypt(passwd, onError); }]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+        <tag>Mine</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[SSH 连接 Github]]></title>
+    <url>%2Farchives%2Fsshgithub.html</url>
+    <content type="text"><![CDATA[之前我一直都在用Git的https方式部署项目，每次都要输密码，都不懂我是怎么过来的，今天才发现还有SSH方式的，方便多啦!因为我是用手机的,所以这里以 Neoterm 为例。 下载 OPEN SSH 由于手机不自带SSH所以需要先安装Open SSH 首先，在终端里输入apt install openssh 等待安装完成 生成密钥 在终端中输入ssh-keygen -t rsa 回车三次 在终端中输入cat ~/.ssh/id_rsa.pub 此时终端显示12$ cat ~/.ssh/id_rsa.pubssh-rsa ***@localhost 在Github绑定SSH key 打开 Github 点击自己的头像-Settings-SSH and GPG keys-New SSH key Title随便填 Key在下方填刚刚你输入的cat ~/.ssh/id_rsa.pub命令显示的密钥,必须全部复制,包括ssh-rsa与后面的@localhost,缺一将提示错误! 然后点击Add SSH key 连接Github 终端输入ssh -T git@github.com 提示Are you sure you want to continue connecting (yes/no)?输入yes 若提示Hi Yourname! You&#39;ve successfully authenticated, but GitHub does not provide shell access.说明成功使用SSH连接了Github]]></content>
+      <categories>
+        <category>Github</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Github</tag>
+        <tag>Deploy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux删除指令]]></title>
+    <url>%2Farchives%2FLinux.html</url>
+    <content type="text"><![CDATA[Linux删除指令的方法123rm -Rf 文件名 #删除文件夹和文件夹里的所以内容rm 文件* #删除文件名里有"文件"两个字的文件rm 文件[01-04] #删除"文件01,文件02,文件03,文件04"]]></content>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[壁纸推荐]]></title>
+    <url>%2Farchives%2Fgood_image.html</url>
+    <content type="text"><![CDATA[今天有人问我壁纸，我就推荐一下，长按保存即可 No.1No.2No.3No.4]]></content>
+      <categories>
+        <category>壁纸推荐</category>
+      </categories>
+      <tags>
+        <tag>壁纸</tag>
+      </tags>
+  </entry>
+</search>
